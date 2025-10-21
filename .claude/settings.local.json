@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /B /S F:UnrealProjectsvr57Config)",
+      "Bash(dir /B /S F:UnrealProjectsvr57Content)",
+      "Bash(dir /B F:UnrealProjectsvr57)",
+      "Bash(git init)",
+      "Bash(git remote add origin https://github.com/jimsimonz/vr57.git)",
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Unreal Engine 5.7 VR project setup\n\n- UE 5.7 VR project targeting Meta Quest and PC VR\n- OpenXR with hand tracking and eye tracking\n- Custom OpenXRExtended plugin for advanced features\n- VR template foundation with XRFramework\n- Project documentation in CLAUDE.md\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
