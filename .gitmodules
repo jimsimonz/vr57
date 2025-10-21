@@ -1,0 +1,3 @@
+[submodule "Plugins/OpenXRExtended"]
+	path = Plugins/OpenXRExtended
+	url = https://github.com/jimsimonz/OpenXRExtended.git
